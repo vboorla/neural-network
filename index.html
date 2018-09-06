@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hand Writing Recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="libs/Chart.min.js"></script>
+    <script src="libs/jquery-3.3.1.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Neural Networks - Hand Writing Recognition</h1>
+        <h2>Draw any digit from 0 -9 </h2>        
+        <canvas id="canvas" width="280" height="280"></canvas>   
+        <div class="buttons">
+        <input id="clearCanvas" type="button" value="Clear">
+        <input id="predictDigit" type="button" value="Prediction">
+        <a href="#" class="button" id="download" download="my-file-name.png">Download</a>
+        </div>
+    </div>    
+    <script src="script.js"></script>    
+</body>
+
+</html>

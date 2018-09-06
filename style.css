@@ -1,0 +1,39 @@
+body {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    text-align: center;
+    overflow: auto;
+
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 3em;
+    margin: 0 0 0.1em 0;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 0.9em;
+    margin: 0 0 50px;
+    color: #999;
+}
+
+#buttons {
+    font-weight: 200;
+    font-size: 0.9em;
+    margin: 10 0 50px;
+    color: #333;    
+    float: left;
+}
+
+#canvas {
+    border: 1px black solid;        
+    display: inline-block;    
+}
+
+
